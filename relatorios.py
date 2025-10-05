@@ -16,4 +16,4 @@ def gerar_relatorio():
         for linha in dados:
             f.write(str(linha) + "\n")
 
-print("Relatórios gerados: relatorio.json e relatorio.txt")
+    print("Relatórios gerados: relatorio.json e relatorio.txt")
