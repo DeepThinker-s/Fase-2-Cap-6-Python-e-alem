@@ -1,0 +1,57 @@
+=========================================================
+      RELATÓRIO DE MONITORAMENTO DE PERDAS NA COLHEITA
+=========================================================
+Gerado em: 05/10/2025 17:46:17
+
+------------------ REGISTROS INDIVIDUAIS ------------------
+
+2025-10-05 17:13:36
+  - ID do Registro.........: 1
+  - Tipo de Colheita.......: Manual
+  - Prod. Estimada.........: 300.00 t/ha
+  - Prod. Real.............: 900.00 t/ha
+  - Valor por Tonelada.....: R$ 1,000.00
+  - Percentual de Perda....: -200.00%
+  - PREJUÍZO FINANCEIRO....: R$ -1,800,000.00
+---------------------------------------------------------
+
+2025-10-05 17:37:57
+  - ID do Registro.........: 21
+  - Tipo de Colheita.......: Manual
+  - Prod. Estimada.........: 11250.00 t/ha
+  - Prod. Real.............: 1.00 t/ha
+  - Valor por Tonelada.....: R$ 3.00
+  - Percentual de Perda....: 99.99%
+  - PREJUÍZO FINANCEIRO....: R$ 33,747.00
+---------------------------------------------------------
+
+2025-10-05 17:40:49
+  - ID do Registro.........: 41
+  - Tipo de Colheita.......: Manual
+  - Prod. Estimada.........: 20000.00 t/ha
+  - Prod. Real.............: 11250.00 t/ha
+  - Valor por Tonelada.....: R$ 150.00
+  - Percentual de Perda....: 43.75%
+  - PREJUÍZO FINANCEIRO....: R$ 1,312,500.00
+---------------------------------------------------------
+
+2025-10-05 17:41:31
+  - ID do Registro.........: 42
+  - Tipo de Colheita.......: Manual
+  - Prod. Estimada.........: 12000.00 t/ha
+  - Prod. Real.............: 11250.00 t/ha
+  - Valor por Tonelada.....: R$ 150.00
+  - Percentual de Perda....: 6.25%
+  - PREJUÍZO FINANCEIRO....: R$ 112,500.00
+---------------------------------------------------------
+
+===================== SUMÁRIO EXECUTIVO =====================
+
+Total de Registros de Perda...: 4
+  - Colheitas Manuais........: 4
+  - Colheitas Mecânicas......: 0
+
+Média de Perda Percentual.....: -12.50%
+PREJUÍZO TOTAL ACUMULADO......: R$ -341,253.00
+
+=========================================================
