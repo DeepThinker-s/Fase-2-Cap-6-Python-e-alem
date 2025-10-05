@@ -60,6 +60,33 @@ O código foi organizado de forma modular para facilitar a manutenção e escala
   * `relatorios.py`: Responsável por consultar os dados no banco e gerar os arquivos de relatório (`.txt` e `.json`).
   * `utils.py`: Módulo com funções utilitárias, como a validação de inputs do usuário.
 
+  +-------------------+
+|  Usuário (Prompt) |
++-------------------+
+    |
+    v
++-------------------+
+|  main.py          | --> Menu principal
++-------------------+
+    |
+    +--------------------------+
+    |                          |
+    v                          v
++-------------------+     +-------------------+
+| colheita.py       |     | relatorio.py      |
+| - calcular_perdas |     | - gerar_relatorio |
+| - registrar_colhe.|     | - exportar_json   |
++-------------------+     | - exportar_txt    |
+    |                     +-------------------+
+    v
++-------------------+
+| banco.py          |
+| - conectar_oracle |
+| - inserir_dados   |
+| - listar_dados    |
++-------------------+
+
+
 ## 3\. Como Executar o Projeto
 
 ### Pré-requisitos
