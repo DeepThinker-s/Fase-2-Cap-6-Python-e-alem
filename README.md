@@ -1,39 +1,4 @@
 
-graph TD
-    subgraph Início
-        A[Start: Usuário executa main.py] --> B(Inicialização: Função criar_tabela é chamada);
-    end
-
-    B --> C{Loop: Exibir Menu Principal};
-
-    subgraph "Opção 1: Registrar Colheita"
-        C --> D[1. Inserir Dados da Colheita<br>(Tipo, Prod. Estimada, Prod. Real)];
-        D --> E{Houve Perda?<br>(Prod. Real <= Prod. Estimada)};
-        E -- Sim --> F[1.1 Inserir Valor por Tonelada];
-        F --> G[1.2 Calcular Perda Percentual e Prejuízo];
-        G --> H[1.3 Inserir Registro no Banco de Dados Oracle];
-        H --> I[1.4 Exibir Resumo da Perda];
-        I --> C;
-        E -- Não (Houve Ganho) --> J[1.1 Exibir Mensagem de Ganho de Produtividade<br>e Não Salvar Dados];
-        J --> C;
-    end
-
-    subgraph "Opção 2: Gerar Relatório"
-        C --> K[2. Consultar Todos os Registros no Banco];
-        K --> L{Existem Dados Salvos?};
-        L -- Sim --> M[2.1 Processar Dados e Calcular Sumário<br>(Prejuízo Total, Média de Perda, etc.)];
-        M --> N[2.2 Gerar Arquivo 'relatorio.txt'<br>(Formato para Leitura Humana)];
-        N --> O[2.3 Gerar Arquivo 'relatorio.json'<br>(Formato para Integração)];
-        O --> P[2.4 Exibir Mensagem de Sucesso];
-        P --> C;
-        L -- Não --> Q[2.1 Exibir Mensagem 'Nenhum dado encontrado'];
-        Q --> C;
-    end
-
-    subgraph "Opção 3: Sair"
-        C --> R[3. Encerrar Sistema];
-    end
-
 # Cap 6 - Python e Além - Fase 2: Sistema de Monitoramento de Perdas na Colheita de Cana-de-Açúcar
 
 ## Integrantes do GRUPO 13
